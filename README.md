@@ -314,21 +314,6 @@ classifier = LogisticRegression(random_state = 0)  # using the same random_state
 classifier.fit(X_train, y_train)
 ```
 
-    /anaconda3/lib/python3.7/site-packages/sklearn/linear_model/logistic.py:432: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
-      FutureWarning)
-
-
-
-
-
-    LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
-                       intercept_scaling=1, l1_ratio=None, max_iter=100,
-                       multi_class='warn', n_jobs=None, penalty='l2',
-                       random_state=0, solver='warn', tol=0.0001, verbose=0,
-                       warm_start=False)
-
-
-
 ## Test the Model On the Testing Set
 
 
